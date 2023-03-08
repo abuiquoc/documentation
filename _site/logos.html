@@ -59,9 +59,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="custom.scss">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar floating nav-fixed">
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -97,9 +99,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Home.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Introduction</a>
+            <a href="./Roadmap.html" class="sidebar-item-text sidebar-link">Service description and evolution roadmap</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -107,14 +114,29 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Home.html" class="sidebar-item-text sidebar-link">Copernicus Data Space Ecosystem documentation portal</a>
+  <a href="./Roadmap/DataTable.html" class="sidebar-item-text sidebar-link">Data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Roadmap/APITable.html" class="sidebar-item-text sidebar-link">APIs</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Roadmap/AppTable.html" class="sidebar-item-text sidebar-link">Applications</a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Registration.html" class="sidebar-item-text sidebar-link">User registration and authentication</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Service description and evolution roadmap</a>
+            <a href="./Data.html" class="sidebar-item-text sidebar-link">Data</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -122,14 +144,29 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ServiceDescriptionRoadmap.html" class="sidebar-item-text sidebar-link">Service description and evolution roadmap</a>
+  <a href="./Data/Sentinel1.html" class="sidebar-item-text sidebar-link">Sentinel 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Data/Sentinel2.html" class="sidebar-item-text sidebar-link">Sentinel 2</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Data/Sentinel3.html" class="sidebar-item-text sidebar-link">Sentinel 3</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Data/Sentinel5P.html" class="sidebar-item-text sidebar-link">Sentinel 5P</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Roadmap</a>
+            <a href="./APIs.html" class="sidebar-item-text sidebar-link">APIs</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -137,14 +174,14 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Roadmap.html" class="sidebar-item-text sidebar-link">Roadmap</a>
+  <a href="./APIs/OpenSearch.html" class="sidebar-item-text sidebar-link">OpenSearch</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">User registration and authentication</a>
+            <a href="./Applications.html" class="sidebar-item-text sidebar-link">Applications</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -152,16 +189,28 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Registration.html" class="sidebar-item-text sidebar-link">User registration and authentication</a>
+  <a href="./Applications/Browser.html" class="sidebar-item-text sidebar-link">About the Browser</a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./FAQ.html" class="sidebar-item-text sidebar-link">FAQ</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Support.html" class="sidebar-item-text sidebar-link">Support</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
