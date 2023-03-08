@@ -1,4 +1,4 @@
-## About the Browser
+## Browser
 
 The Browser is a web browser application that allows you to easily search, visualize, modify and download imagery from the Sentinel satellites. You can access the Browser at:
 

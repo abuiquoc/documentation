@@ -25,34 +25,76 @@ website:
     contents:
       - href: Home.md
         text: Welcome
-      - section: "Service description and evolution roadmap"
-        href: Roadmap.md
+      # - section: "Service description and evolution roadmap"
+      #   href: Roadmap.md
+      #   contents: 
+      #     - href: Roadmap/DataTable.qmd
+      #     - href: Roadmap/APITable.qmd
+      #     - href: Roadmap/AppTable.qmd
+      # - href: Registration.md
+      #   text: User registration and authentication
+      # - section: "Data"
+      #   href: Data.md
+      #   contents: 
+      #     - href: Data/Sentinel1.md
+      #     - href: Data/Sentinel2.md
+      #     - href: Data/Sentinel3.md
+      #     - href: Data/Sentinel5P.md
+      # - section: "APIs"
+      #   href: APIs.md
+      #   contents: 
+      #     - href: APIs/OData.md
+      #     - href: APIs/OpenSearch.md
+      # - section: "Applications"
+      #   href: Applications.md
+      #   contents: 
+      #     - href: Applications/Browser.md
+      # - href: FAQ.md
+      #   text: FAQ
+      # - href: Support.md
+      #   text: Support
+      - section: "Data Offering"
         contents: 
-          - href: Roadmap/DataTable.qmd
-          - href: Roadmap/APITable.qmd
-          - href: Roadmap/AppTable.qmd
-      - href: Registration.md
-        text: User registration and authentication
-      - section: "Data"
-        href: Data.md
+        - section: "Copernicus & Sentinel data"
+          contents: 
+          - Data/Sentinel1.md 
+          - Data/Sentinel2.md 
+          - Data/Sentinel3.md 
+          - Data/Sentinel5P.md 
+        - section: "On-demand & Commercial data"
+        - section: "Copernicus Contributing Mission"
+        - section: "Federated datasets"
+      - section: "Tools"
         contents: 
-          - href: Data/Sentinel1.md
-          - href: Data/Sentinel2.md
-          - href: Data/Sentinel3.md
-          - href: Data/Sentinel5P.md
+        - Applications/Browser.md
+        - section: "Marketplace"
+        - section: "Jupyter Hub"
+        - section: "Data workspace and on-demand processing"
+        - section: "OpenEO web editor"
+        - section: "Dashboard"
+        - section: "Traceability service"
       - section: "APIs"
-        href: APIs.md
         contents: 
-          - href: APIs/OData.md
-          - href: APIs/OpenSearch.md
-      - section: "Applications"
-        href: Applications.md
+        - section: "Catalogue and download APIs"
+          contents:
+          - APIs/OData.md
+          - APIs/OpenSearch.md 
+          - section: "STAC"
+          - section: "S3"
+        - section: "OpenEO Hub"
+        - section: "Sentinel Hub"
+          contents:
+          - section: "Synchronous"
+          - section: "Statistical"
+          - section: "Async"
+          - section: "Batch"
+          - section: "BYOD"
+        - section: "Traceability"
+        - section: "On-demand production"
+      - section: "Ecosystem services"
         contents: 
-          - href: Applications/Browser.md
-      - href: FAQ.md
-        text: FAQ
-      - href: Support.md
-        text: Support
+        - section: "Commercial services"
+        - section: "Public services"
     
 
 
