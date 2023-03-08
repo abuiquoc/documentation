@@ -56,6 +56,7 @@ website:
       - section: "Data Offering"
         contents: 
         - section: "Copernicus & Sentinel data"
+          href: Data.md
           contents: 
           - Data/Sentinel1.md 
           - Data/Sentinel2.md 
@@ -65,6 +66,7 @@ website:
         - section: "Copernicus Contributing Mission"
         - section: "Federated datasets"
       - section: "Tools"
+        href: Applications.md
         contents: 
         - Applications/Browser.md
         - section: "Marketplace"
@@ -76,6 +78,7 @@ website:
       - section: "APIs"
         contents: 
         - section: "Catalogue and download APIs"
+          href: APIs.md
           contents:
           - APIs/OData.md
           - APIs/OpenSearch.md 
@@ -101,5 +104,5 @@ website:
 format:
   html:
     toc: true
-    toc-depth: 2
+    toc-depth: 3
     css: custom.scss
