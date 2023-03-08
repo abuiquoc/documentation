@@ -65,6 +65,7 @@ website:
         - section: "On-demand & Commercial data"
         - section: "Copernicus Contributing Mission"
         - section: "Federated datasets"
+        - text: "---"
       - section: "Tools"
         href: Applications.md
         contents: 
@@ -75,6 +76,7 @@ website:
         - section: "OpenEO web editor"
         - section: "Dashboard"
         - section: "Traceability service"
+        - text: "---"
       - section: "APIs"
         contents: 
         - section: "Catalogue and download APIs"
@@ -94,10 +96,12 @@ website:
           - section: "BYOD"
         - section: "Traceability"
         - section: "On-demand production"
+        - text: "---"
       - section: "Ecosystem services"
         contents: 
         - section: "Commercial services"
         - section: "Public services"
+        - text: "---"
     
 
 
