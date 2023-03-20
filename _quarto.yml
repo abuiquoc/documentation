@@ -82,8 +82,8 @@ website:
         - section: "Catalogue and download APIs"
           href: APIs.md
           contents:
-          - APIs/OData.md
-          - APIs/OpenSearch.md 
+          - href: APIs/OData.qmd
+          - href: APIs/OpenSearch.md 
           - section: "STAC"
           - section: "S3"
         - section: "OpenEO Hub"
